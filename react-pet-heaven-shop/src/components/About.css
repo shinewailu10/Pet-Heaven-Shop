@@ -1,0 +1,130 @@
+.main{
+	width: 50%;
+    background: rgba(0, 0, 0, .7);
+	color: pink;
+	text-align: center;
+	padding: 70px;
+	position: absolute;
+	top: 20%;
+	left: 27%;
+	border-radius: 25px;
+
+}
+.main h1{
+	font-family: Copperplate Gothic Light;
+    color: pink;
+    font-size: 50px;
+}
+.main h3{
+	font-family: Comic Sans MS;
+	font-size: 40px;
+}
+.main p{
+	font-family: Century Gothic;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+.header{
+	height: 100vh;
+	width: 100%;
+    background: url(/public/image/pet5.png) center center/cover no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+
+
+}
+
+@media screen and (max-width: 1520px) {
+    .main{
+        width: 50%;
+        background: rgba(0, 0, 0, .7);
+        color: pink;
+        text-align: center;
+        padding: 50px;
+        position: absolute;
+        top: 20%;
+        left: 27%;
+        border-radius: 25px;
+    
+    }
+    .main h1{
+        font-family: Copperplate Gothic Light;
+        color: pink;
+
+        font-size: 40px;
+    }
+    .main h3{
+        font-family: Comic Sans MS;
+        font-size: 40px;
+    }
+    .main p{
+        font-family: Century Gothic;
+        line-height: 1.5em;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .main{
+        width: 50%;
+        background: rgba(0, 0, 0, .7);
+        color: pink;
+        text-align: center;
+        padding: 40px;
+        position: absolute;
+        top: 20%;
+        left: 27%;
+        border-radius: 25px;
+    
+    }
+    .main h1{
+        font-family: Copperplate Gothic Light;
+        font-size: 28px;
+        color: pink;
+
+    }
+    .main h3{
+        font-family: Comic Sans MS;
+        font-size: 28px;
+    }
+    .main p{
+        font-family: Century Gothic;
+        line-height: 1.5em;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    .main{
+        width: 50%;
+        background: rgba(0, 0, 0, .7);
+        color: pink;
+        text-align: center;
+        padding: 35px;
+        position: absolute;
+        top: 20%;
+        left: 27%;
+        border-radius: 25px;
+    
+    }
+    .main h1{
+        font-family: Copperplate Gothic Light;
+        font-size: 22px;
+        color: pink;
+
+    }
+    .main h3{
+        font-family: Comic Sans MS;
+        font-size: 22px;
+    }
+    .main p{
+        font-family: Century Gothic;
+        line-height: 1.5em;
+        font-size: 14px;
+    }
+
+}
